@@ -1,5 +1,5 @@
 
-# iOS-Tr-ningsDagboken
+# iOS-TD2 är en vidare utveckling på en TräningsDagbok för iOS
 Träningsdagbok skriven i Xcode 10 Swift 4.2 som ett skolprojekt
 
 Kravlista för detta projekt förutom alla funktioner som krävdes i del 1:
