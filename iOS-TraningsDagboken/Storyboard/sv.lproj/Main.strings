@@ -1,0 +1,87 @@
+/* Class = "UILabel"; text = "Label"; ObjectID = "1Dw-zH-afk"; */
+"1Dw-zH-afk.text" = "Label";
+
+/* Class = "UILabel"; text = "Workout"; ObjectID = "Cqs-vz-rAv"; */
+"Cqs-vz-rAv.text" = "Träningspass";
+
+/* Class = "UIButton"; normalTitle = " LOG IN WITH GOOGLE"; ObjectID = "Cwt-vQ-6nY"; */
+"Cwt-vQ-6nY.normalTitle" = "LOGGA IN MED GOOGLE";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dXD-hH-0Xd"; */
+"dXD-hH-0Xd.text" = "Label";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "EbF-wv-7J1"; */
+"EbF-wv-7J1.text" = "Namn";
+
+/* Class = "UIButton"; normalTitle = " LOG IN WITH EMAIL"; ObjectID = "EOx-bQ-brQ"; */
+"EOx-bQ-brQ.normalTitle" = "LOGGA IN MED EMAIL";
+
+/* Class = "UINavigationItem"; title = "Add a new workout"; ObjectID = "etC-FP-i9B"; */
+"etC-FP-i9B.title" = "Lägg till nytt träningspass";
+
+/* Class = "UITextField"; placeholder = "Pick a date"; ObjectID = "fH3-Vh-fn2"; */
+"fH3-Vh-fn2.placeholder" = "Välj ett datum";
+
+/* Class = "UITextField"; placeholder = "Type of workout"; ObjectID = "gNs-Cr-b09"; */
+"gNs-Cr-b09.placeholder" = "Träningstyp";
+
+/* Class = "UILabel"; text = "Workout facility"; ObjectID = "gNz-ur-Lvv"; */
+"gNz-ur-Lvv.text" = "Träningsanläggning";
+
+/* Class = "UIButton"; normalTitle = "CREATE ACCOUNT"; ObjectID = "hb4-MV-Vfz"; */
+"hb4-MV-Vfz.normalTitle" = "SKAPA KONTO";
+
+/* Class = "UILabel"; text = "Add an image"; ObjectID = "Hkm-TO-WwE"; */
+"Hkm-TO-WwE.text" = "Lägg till bild";
+
+/* Class = "UITextField"; placeholder = "Where"; ObjectID = "Ikv-xW-lPF"; */
+"Ikv-xW-lPF.placeholder" = "Vart";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "iyl-fq-8rL"; */
+"iyl-fq-8rL.text" = "Location";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "j3l-To-JSk"; */
+"j3l-To-JSk.text" = "Datum";
+
+/* Class = "UILabel"; text = "Welcome to your workout diary"; ObjectID = "j7Q-7q-pqd"; */
+"j7Q-7q-pqd.text" = "Välkommen till TräningsDagboken";
+
+/* Class = "UILabel"; text = "Subsection Title"; ObjectID = "jHF-hk-qpd"; */
+"jHF-hk-qpd.text" = "Subsection Title";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Kc2-fa-zLC"; */
+"Kc2-fa-zLC.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Workouts"; ObjectID = "KTF-ac-VkU"; */
+"KTF-ac-VkU.title" = "Träningspass";
+
+/* Class = "UILabel"; text = "2018-09-30"; ObjectID = "LNj-sk-IFM"; */
+"LNj-sk-IFM.text" = "2018-09-30";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "ncc-Ft-hGI"; */
+"ncc-Ft-hGI.text" = "Beskrivning";
+
+/* Class = "UIBarButtonItem"; title = "Spara"; ObjectID = "pJR-fy-WXn"; */
+"pJR-fy-WXn.title" = "Spara";
+
+/* Class = "UIButton"; normalTitle = " LOG IN WITH FACEBOOK"; ObjectID = "r12-MH-aLP"; */
+"r12-MH-aLP.normalTitle" = "LOGGA IN MED FACEBOOK";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TOr-zC-583"; */
+"TOr-zC-583.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "What address"; ObjectID = "v0v-vC-pXK"; */
+"v0v-vC-pXK.placeholder" = "Vilken adress";
+
+/* Class = "UIBarButtonItem"; title = "Ny"; ObjectID = "VKS-9Q-qlx"; */
+"VKS-9Q-qlx.title" = "Ny";
+
+/* Class = "UIBarButtonItem"; title = "Avbryt"; ObjectID = "yvg-TD-1aP"; */
+"yvg-TD-1aP.title" = "Avbryt";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "zC6-5r-39G"; */
+"zC6-5r-39G.text" = "Adress";
+
+/* Class = "UILabel"; text = "Press + to add new workout"; ObjectID = "zeG-s5-Wq2"; */
+"zeG-s5-Wq2.text" = "Tryck + för att lägga till träningspass";
+

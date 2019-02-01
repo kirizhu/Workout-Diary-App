@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		5F05A120214FE2A200C04B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F05A11F214FE2A200C04B41 /* Assets.xcassets */; };
 		5F05A1222150DA5200C04B41 /* TrainingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F05A1212150DA5200C04B41 /* TrainingTableViewCell.swift */; };
+		5F2AD0962204871A009D0AA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F2AD0942204871A009D0AA0 /* InfoPlist.strings */; };
+		5F2AD0992204871A009D0AA0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F2AD0972204871A009D0AA0 /* Localizable.strings */; };
+		5F2AD09B22048B43009D0AA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F2AD09A22048B43009D0AA0 /* GoogleService-Info.plist */; };
 		5F406717215B727900BD9278 /* TrainingLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F406716215B727900BD9278 /* TrainingLogController.swift */; };
 		5F88CDDB214FBD5100B03813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88CDDA214FBD5100B03813 /* AppDelegate.swift */; };
 		5F88CDE0214FBD5100B03813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F88CDDE214FBD5100B03813 /* Main.storyboard */; };
@@ -36,7 +39,6 @@
 		5FF42024215A569600F03916 /* WorkoutDetailSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF42023215A569600F03916 /* WorkoutDetailSeparatorCell.swift */; };
 		5FF42026215A57DD00F03916 /* WorkoutDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF42025215A57DD00F03916 /* WorkoutDetailMapCell.swift */; };
 		9EF23A0939B01CC3D0A6C22B /* Pods_iOS_TraningsDagboken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA4FDECFE55A4F413FE28C /* Pods_iOS_TraningsDagboken.framework */; };
-		BC601770220304890079D1AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC60176F220304890079D1AC /* GoogleService-Info.plist */; };
 		BCB3E74922034AD200C0B187 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3E74822034AD200C0B187 /* WelcomeViewController.swift */; };
 		BCDC91382153E85100014A98 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC91372153E85100014A98 /* RoundedTextField.swift */; };
 /* End PBXBuildFile section */
@@ -45,6 +47,11 @@
 		1CCCB8EFD4AD88F7B1EF2F6D /* Pods-iOS-TraningsDagboken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-TraningsDagboken.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-TraningsDagboken/Pods-iOS-TraningsDagboken.release.xcconfig"; sourceTree = "<group>"; };
 		5F05A11F214FE2A200C04B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F05A1212150DA5200C04B41 /* TrainingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTableViewCell.swift; sourceTree = "<group>"; };
+		5F2AD092220481A3009D0AA0 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
+		5F2AD093220481A3009D0AA0 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5F2AD0952204871A009D0AA0 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F2AD0982204871A009D0AA0 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5F2AD09A22048B43009D0AA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5F406716215B727900BD9278 /* TrainingLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingLogController.swift; sourceTree = "<group>"; };
 		5F88CDD7214FBD5100B03813 /* iOS-TraningsDagboken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-TraningsDagboken.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F88CDDA214FBD5100B03813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +81,6 @@
 		5FF42023215A569600F03916 /* WorkoutDetailSeparatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailSeparatorCell.swift; sourceTree = "<group>"; };
 		5FF42025215A57DD00F03916 /* WorkoutDetailMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailMapCell.swift; sourceTree = "<group>"; };
 		7CDA4FDECFE55A4F413FE28C /* Pods_iOS_TraningsDagboken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_TraningsDagboken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC60176F220304890079D1AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BCB3E74822034AD200C0B187 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		BCDC91372153E85100014A98 /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
 		DA29971602CCA5B04C122BA2 /* Pods-iOS-TraningsDagboken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-TraningsDagboken.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-TraningsDagboken/Pods-iOS-TraningsDagboken.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,8 +161,10 @@
 				5F05A1252150DADD00C04B41 /* Controller */,
 				5F05A1232150DAC600C04B41 /* View */,
 				5F88CDE9214FBD5300B03813 /* Info.plist */,
-				BC60176F220304890079D1AC /* GoogleService-Info.plist */,
+				5F2AD0972204871A009D0AA0 /* Localizable.strings */,
+				5F2AD0942204871A009D0AA0 /* InfoPlist.strings */,
 				5F88CDE1214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld */,
+				5F2AD09A22048B43009D0AA0 /* GoogleService-Info.plist */,
 				5F88CDDA214FBD5100B03813 /* AppDelegate.swift */,
 				5F05A11F214FE2A200C04B41 /* Assets.xcassets */,
 			);
@@ -226,7 +234,6 @@
 				5F88CDD3214FBD5100B03813 /* Sources */,
 				5F88CDD4214FBD5100B03813 /* Frameworks */,
 				5F88CDD5214FBD5100B03813 /* Resources */,
-				5A54932729C7B7E9DCEAE79F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,6 +271,7 @@
 			knownRegions = (
 				en,
 				Base,
+				sv,
 			);
 			mainGroup = 5F88CDCE214FBD5100B03813;
 			productRefGroup = 5F88CDD8214FBD5100B03813 /* Products */;
@@ -280,9 +288,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2AD0992204871A009D0AA0 /* Localizable.strings in Resources */,
 				5F88CDE8214FBD5300B03813 /* LaunchScreen.storyboard in Resources */,
+				5F2AD0962204871A009D0AA0 /* InfoPlist.strings in Resources */,
 				5FF420162159068000F03916 /* OFL.txt in Resources */,
-				BC601770220304890079D1AC /* GoogleService-Info.plist in Resources */,
 				5FF420172159068000F03916 /* Rubik-BlackItalic.ttf in Resources */,
 				5FF420152159068000F03916 /* Rubik-LightItalic.ttf in Resources */,
 				5FF420112159068000F03916 /* Rubik-Light.ttf in Resources */,
@@ -291,6 +300,7 @@
 				5F05A120214FE2A200C04B41 /* Assets.xcassets in Resources */,
 				5F88CDE0214FBD5100B03813 /* Main.storyboard in Resources */,
 				5FF420142159068000F03916 /* Rubik-Italic.ttf in Resources */,
+				5F2AD09B22048B43009D0AA0 /* GoogleService-Info.plist in Resources */,
 				5FF4200F2159068000F03916 /* Rubik-MediumItalic.ttf in Resources */,
 				5FF420182159068000F03916 /* Rubik-Regular.ttf in Resources */,
 				5FF420102159068000F03916 /* Rubik-Bold.ttf in Resources */,
@@ -323,30 +333,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5A54932729C7B7E9DCEAE79F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iOS-TraningsDagboken/Pods-iOS-TraningsDagboken-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-TraningsDagboken/Pods-iOS-TraningsDagboken-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -375,10 +361,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		5F2AD0942204871A009D0AA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F2AD0952204871A009D0AA0 /* sv */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F2AD0972204871A009D0AA0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F2AD0982204871A009D0AA0 /* sv */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		5F88CDDE214FBD5100B03813 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5F88CDDF214FBD5100B03813 /* Base */,
+				5F2AD092220481A3009D0AA0 /* sv */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5F88CDE7214FBD5300B03813 /* Base */,
+				5F2AD093220481A3009D0AA0 /* sv */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -398,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -458,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
