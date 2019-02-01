@@ -1,0 +1,72 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1Dw-zH-afk"; */
+"1Dw-zH-afk.text" = "Label";
+
+/* Class = "UILabel"; text = "Workout Form"; ObjectID = "Cqs-vz-rAv"; */
+"Cqs-vz-rAv.text" = "Workout Form";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "EbF-wv-7J1"; */
+"EbF-wv-7J1.text" = "Name";
+
+/* Class = "UILabel"; text = "Add an image"; ObjectID = "Hkm-TO-WwE"; */
+"Hkm-TO-WwE.text" = "Add an image";
+
+/* Class = "UITextField"; placeholder = "Vart någonstans"; ObjectID = "Ikv-xW-lPF"; */
+"Ikv-xW-lPF.placeholder" = "Vart någonstans";
+
+/* Class = "UINavigationItem"; title = "Workout Sessions"; ObjectID = "KTF-ac-VkU"; */
+"KTF-ac-VkU.title" = "Workout Sessions";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Kc2-fa-zLC"; */
+"Kc2-fa-zLC.text" = "Label";
+
+/* Class = "UILabel"; text = "2018-09-30"; ObjectID = "LNj-sk-IFM"; */
+"LNj-sk-IFM.text" = "2018-09-30";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TOr-zC-583"; */
+"TOr-zC-583.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Ny"; ObjectID = "VKS-9Q-qlx"; */
+"VKS-9Q-qlx.title" = "Ny";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dXD-hH-0Xd"; */
+"dXD-hH-0Xd.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Add new workout"; ObjectID = "etC-FP-i9B"; */
+"etC-FP-i9B.title" = "Add new workout";
+
+/* Class = "UITextField"; placeholder = "Välj ett Daum"; ObjectID = "fH3-Vh-fn2"; */
+"fH3-Vh-fn2.placeholder" = "Välj ett Daum";
+
+/* Class = "UITextField"; placeholder = "På vad du har gjort"; ObjectID = "gNs-Cr-b09"; */
+"gNs-Cr-b09.placeholder" = "På vad du har gjort";
+
+/* Class = "UILabel"; text = "Workout Facility"; ObjectID = "gNz-ur-Lvv"; */
+"gNz-ur-Lvv.text" = "Workout Facility";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "iyl-fq-8rL"; */
+"iyl-fq-8rL.text" = "Location";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "j3l-To-JSk"; */
+"j3l-To-JSk.text" = "Date";
+
+/* Class = "UILabel"; text = "Subsection Title"; ObjectID = "jHF-hk-qpd"; */
+"jHF-hk-qpd.text" = "Subsection Title";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "ncc-Ft-hGI"; */
+"ncc-Ft-hGI.text" = "Description";
+
+/* Class = "UIBarButtonItem"; title = "Spara"; ObjectID = "pJR-fy-WXn"; */
+"pJR-fy-WXn.title" = "Spara";
+
+/* Class = "UITextField"; placeholder = "Vilken adress"; ObjectID = "v0v-vC-pXK"; */
+"v0v-vC-pXK.placeholder" = "Vilken adress";
+
+/* Class = "UIBarButtonItem"; title = "Avbryt"; ObjectID = "yvg-TD-1aP"; */
+"yvg-TD-1aP.title" = "Avbryt";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "zC6-5r-39G"; */
+"zC6-5r-39G.text" = "Address";
+
+/* Class = "UILabel"; text = "Tryck på + för att lägga till träningspass"; ObjectID = "zeG-s5-Wq2"; */
+"zeG-s5-Wq2.text" = "Tryck på + för att lägga till träningspass";
