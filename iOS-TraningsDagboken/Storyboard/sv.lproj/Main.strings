@@ -26,7 +26,7 @@
 "gNs-Cr-b09.placeholder" = "Träningstyp";
 
 /* Class = "UILabel"; text = "Workout facility"; ObjectID = "gNz-ur-Lvv"; */
-"gNz-ur-Lvv.text" = "Träningsanläggning";
+"gNz-ur-Lvv.text" = "Tränignsanläggning";
 
 /* Class = "UIButton"; normalTitle = "CREATE ACCOUNT"; ObjectID = "hb4-MV-Vfz"; */
 "hb4-MV-Vfz.normalTitle" = "SKAPA KONTO";
@@ -38,7 +38,7 @@
 "Ikv-xW-lPF.placeholder" = "Vart";
 
 /* Class = "UILabel"; text = "Location"; ObjectID = "iyl-fq-8rL"; */
-"iyl-fq-8rL.text" = "Location";
+"iyl-fq-8rL.text" = "Plats";
 
 /* Class = "UILabel"; text = "Date"; ObjectID = "j3l-To-JSk"; */
 "j3l-To-JSk.text" = "Datum";
@@ -83,5 +83,5 @@
 "zC6-5r-39G.text" = "Adress";
 
 /* Class = "UILabel"; text = "Press + to add new workout"; ObjectID = "zeG-s5-Wq2"; */
-"zeG-s5-Wq2.text" = "Tryck + för att lägga till träningspass";
+"zeG-s5-Wq2.text" = "Tryck + för att lägga till ett träningspass";
 
