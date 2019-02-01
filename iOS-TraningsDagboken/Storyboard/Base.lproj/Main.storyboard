@@ -401,12 +401,12 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Välkommen till TräningsAppen" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7Q-7q-pqd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Välkommen till TräningsDagboken" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7Q-7q-pqd">
                                 <rect key="frame" x="25" y="80" width="302" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="d1P-tn-8hS"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="33"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
