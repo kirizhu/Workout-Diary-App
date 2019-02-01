@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2fz-FE-QXS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2fz-FE-QXS">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -54,10 +53,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" translatesAutoresizingMaskIntoConstraints="NO" id="RSE-mz-hJ6" userLabel="Photo Image View">
-                                                    <rect key="frame" x="175" y="91" width="24" height="18"/>
+                                                    <rect key="frame" x="175.5" y="91" width="24" height="18"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lägg till bild" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hkm-TO-WwE">
-                                                    <rect key="frame" x="141" y="49" width="92.5" height="21"/>
+                                                    <rect key="frame" x="141.5" y="49" width="92.5" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -293,7 +292,155 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DSE-x0-CLD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-966" y="39"/>
+            <point key="canvasLocation" x="-985" y="39"/>
+        </scene>
+        <!--Welcome View Controller-->
+        <scene sceneID="ZTG-OL-ovG">
+            <objects>
+                <viewController storyboardIdentifier="WelcomeView" id="c4X-vN-RJm" userLabel="Welcome View Controller" customClass="WelcomeViewController" customModule="iOS_TraningsDagboken" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pm6-Dr-7Mq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="edgar-chaparro-669210-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="XhD-3p-vai" userLabel="Background Image View">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bM2-Ds-VPm" userLabel="MaskView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hb4-MV-Vfz" customClass="LineButton" customModule="iOS_TraningsDagboken" customModuleProvider="target">
+                                <rect key="frame" x="16" y="597" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="750" constant="343" id="hd3-sy-frm"/>
+                                    <constraint firstAttribute="height" constant="50" id="qJM-zP-FKY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="17"/>
+                                <state key="normal" title="SKAPA KONTO">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOx-bQ-brQ" customClass="LineButton" customModule="iOS_TraningsDagboken" customModuleProvider="target">
+                                <rect key="frame" x="16" y="346" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ks2-Hr-1UH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="17"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="LOGGA IN MED EMAIL" image="email">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageLeftPadding">
+                                        <real key="value" value="-10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="p2o-0x-MSt">
+                                <rect key="frame" x="16" y="426" width="343" height="107"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r12-MH-aLP" customClass="LineButton" customModule="iOS_TraningsDagboken" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
+                                        <color key="backgroundColor" red="0.23137254900000001" green="0.34901960780000002" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="m95-yv-Lmo"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="17"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="LOGGA IN MED FACEBOOK" image="facebook">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="imageLeftPadding">
+                                                <real key="value" value="-10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cwt-vQ-6nY" customClass="LineButton" customModule="iOS_TraningsDagboken" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="57" width="343" height="50"/>
+                                        <color key="backgroundColor" red="0.82745098039215681" green="0.28235294117647058" blue="0.21176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="rCf-qS-nNw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="17"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="LOGGA IN MED GOOGLE" image="google">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="imageLeftPadding">
+                                                <real key="value" value="-10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Välkommen till TräningsAppen" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7Q-7q-pqd">
+                                <rect key="frame" x="25" y="80" width="302" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="d1P-tn-8hS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ywr-Q1-zX4" firstAttribute="trailing" secondItem="bM2-Ds-VPm" secondAttribute="trailing" id="3K9-e9-zVl"/>
+                            <constraint firstItem="j7Q-7q-pqd" firstAttribute="top" secondItem="ywr-Q1-zX4" secondAttribute="top" constant="60" id="43U-Jc-ZB8"/>
+                            <constraint firstAttribute="bottom" secondItem="XhD-3p-vai" secondAttribute="bottom" id="4Dq-cU-aHH"/>
+                            <constraint firstItem="XhD-3p-vai" firstAttribute="leading" secondItem="ywr-Q1-zX4" secondAttribute="leading" id="9UU-FP-f13"/>
+                            <constraint firstItem="XhD-3p-vai" firstAttribute="top" secondItem="pm6-Dr-7Mq" secondAttribute="top" id="BnV-tr-d1p"/>
+                            <constraint firstItem="p2o-0x-MSt" firstAttribute="top" secondItem="EOx-bQ-brQ" secondAttribute="bottom" constant="30" id="LmY-FC-Z8y"/>
+                            <constraint firstItem="hb4-MV-Vfz" firstAttribute="leading" secondItem="pm6-Dr-7Mq" secondAttribute="leadingMargin" id="NSz-xg-QRK"/>
+                            <constraint firstItem="hb4-MV-Vfz" firstAttribute="trailing" secondItem="pm6-Dr-7Mq" secondAttribute="trailingMargin" id="UEn-he-Ev2"/>
+                            <constraint firstItem="j7Q-7q-pqd" firstAttribute="leading" secondItem="ywr-Q1-zX4" secondAttribute="leading" constant="25" id="Xhl-E7-N47"/>
+                            <constraint firstItem="ywr-Q1-zX4" firstAttribute="trailing" secondItem="j7Q-7q-pqd" secondAttribute="trailing" constant="48" id="aTy-zK-XWq"/>
+                            <constraint firstItem="hb4-MV-Vfz" firstAttribute="top" secondItem="p2o-0x-MSt" secondAttribute="bottom" priority="750" constant="64" id="aij-1u-Wtc"/>
+                            <constraint firstItem="ywr-Q1-zX4" firstAttribute="trailing" secondItem="XhD-3p-vai" secondAttribute="trailing" id="bCB-3r-GGW"/>
+                            <constraint firstItem="EOx-bQ-brQ" firstAttribute="trailing" secondItem="pm6-Dr-7Mq" secondAttribute="trailingMargin" id="csJ-BP-tVL"/>
+                            <constraint firstAttribute="bottom" secondItem="bM2-Ds-VPm" secondAttribute="bottom" id="dEO-gn-m7X"/>
+                            <constraint firstItem="p2o-0x-MSt" firstAttribute="leading" secondItem="pm6-Dr-7Mq" secondAttribute="leadingMargin" id="dGq-h2-lhN"/>
+                            <constraint firstItem="bM2-Ds-VPm" firstAttribute="top" secondItem="pm6-Dr-7Mq" secondAttribute="top" id="hmY-Tw-xFn"/>
+                            <constraint firstItem="EOx-bQ-brQ" firstAttribute="leading" secondItem="pm6-Dr-7Mq" secondAttribute="leadingMargin" id="j5H-ah-gjc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="p2o-0x-MSt" secondAttribute="trailing" id="oW2-y5-gpD"/>
+                            <constraint firstItem="bM2-Ds-VPm" firstAttribute="leading" secondItem="ywr-Q1-zX4" secondAttribute="leading" id="p33-Ai-lkY"/>
+                            <constraint firstItem="ywr-Q1-zX4" firstAttribute="bottom" secondItem="hb4-MV-Vfz" secondAttribute="bottom" constant="20" id="yJv-B9-xSY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ywr-Q1-zX4"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KKo-Dy-6P4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="777-7P-FTB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-474.39999999999998" y="881.10944527736137"/>
         </scene>
         <!--Träningspass-->
         <scene sceneID="Mpc-z9-ym6">
@@ -674,7 +821,11 @@
     </scenes>
     <resources>
         <image name="close" width="16" height="16"/>
+        <image name="edgar-chaparro-669210-unsplash" width="16" height="16"/>
+        <image name="email" width="16" height="16"/>
         <image name="empty" width="1080" height="1080"/>
+        <image name="facebook" width="16" height="16"/>
+        <image name="google" width="16" height="16"/>
         <image name="heart-tick" width="22" height="21"/>
         <image name="photo" width="24" height="18"/>
         <image name="plus" width="16" height="16"/>
