@@ -1,0 +1,33 @@
+/* Camera */
+"Camera" = "Kamera";
+
+/* Choose your image source */
+"Choose your image source" = "Välj din bildkälla";
+
+/* Delete */
+"Delete" = "Radera";
+
+/* Gallery */
+"Gallery" = "Galleri";
+
+/* HOW TO GET THERE */
+"HOW TO GET THERE" = "HUR MAN TAR SIG DIT";
+
+/* Just worked out at */
+"Just worked out at " = "Har precis tränat på";
+
+/* Like */
+"Like" = "Gilla";
+
+/* OK */
+"OK" = "OK";
+
+/* Saving data to context */
+"Saving data to context" = "Sparar data till kontext";
+
+/* Share */
+"Share" = "Dela";
+
+/* We cannot continue because one of the fields is empty. Note that all fields are mandatory */
+"We cannot continue because one of the fields is empty. Note that all fields are mandatory" = "Vi kan inte fortsätta eftersom en av fälten är tom. Observera att alla fält är obligatoriska";
+

@@ -116,7 +116,7 @@ class TrainingTableViewController: UITableViewController, NSFetchedResultsContro
     
     //like func
     override func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        let likeAction = UIContextualAction(style: .normal, title: "Like") { (action, sourceView, completionHandler) in
+        let likeAction = UIContextualAction(style: .normal, title: NSLocalizedString("Like", comment: "Like")) { (action, sourceView, completionHandler) in
             let cell = tableView.cellForRow(at: indexPath) as! TrainingTableViewCell
             self.workoutPosts[indexPath.row].isGood = (self.workoutPosts[indexPath.row].isGood) ? false : true
             cell.heartImageView.isHidden = self.workoutPosts[indexPath.row].isGood ? false : true
@@ -129,7 +129,7 @@ class TrainingTableViewController: UITableViewController, NSFetchedResultsContro
     
     //share and delete func
     override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-        let deleteAction = UIContextualAction(style: .destructive, title: "Delete") {
+        let deleteAction = UIContextualAction(style: .destructive, title:NSLocalizedString("Delete", comment: "Delete")) {
             (action, sourceView, completionHandler) in
             // Delete the row from the data source
             if let appDelegate = (UIApplication.shared.delegate as? AppDelegate) {
@@ -143,9 +143,9 @@ class TrainingTableViewController: UITableViewController, NSFetchedResultsContro
             
         }
         //share
-        let shareAction = UIContextualAction(style: .normal, title: "Share") {
+        let shareAction = UIContextualAction(style: .normal, title: NSLocalizedString("Share" , comment: "Share")) {
             (action , sourceView, completionHandler) in
-            let defaultText = "Just worked out at " + self.workoutPosts[indexPath.row].location!
+            let defaultText = NSLocalizedString("Just worked out at ", comment: "Just worked out at ") + self.workoutPosts[indexPath.row].location!
             
             let activityController : UIActivityViewController
             

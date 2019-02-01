@@ -112,9 +112,9 @@ class TrainingLogViewController: UITableViewController, UITextFieldDelegate, UII
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == 0 {
             
-            let photoSourceRequestController = UIAlertController(title: "", message: "Välj din fotokälla", preferredStyle: .actionSheet)
+            let photoSourceRequestController = UIAlertController(title: "", message: NSLocalizedString("Choose your image source", comment: "Choose your image source"), preferredStyle: .actionSheet)
             
-            let cameraAction = UIAlertAction(title: "Kamera", style: .default, handler: { (action) in
+            let cameraAction = UIAlertAction(title: NSLocalizedString("Camera", comment: "Camera"), style: .default, handler: { (action) in
                 if UIImagePickerController.isSourceTypeAvailable(.camera) {
                     let imagePicker = UIImagePickerController()
                     imagePicker.delegate = self
@@ -125,7 +125,7 @@ class TrainingLogViewController: UITableViewController, UITextFieldDelegate, UII
                 }
             })
             
-            let photoLibraryAction = UIAlertAction(title: "Galleri", style: .default, handler: { (action) in
+            let photoLibraryAction = UIAlertAction(title: NSLocalizedString("Gallery", comment: "Gallery"), style: .default, handler: { (action) in
                 if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
                     let imagePicker = UIImagePickerController()
                     imagePicker.delegate = self
@@ -162,8 +162,8 @@ class TrainingLogViewController: UITableViewController, UITextFieldDelegate, UII
         
         
         if nameTextField.text == "" || locationTextField.text == "" || dateTextField.text == "" || adressTextField.text == "" || descriptionTextField.text == ""  {
-            let alertController = UIAlertController(title: "Oops", message: "Vi kan inte fortsätta eftersom en av fälten är tom. Observera att alla fält är obligatoriska", preferredStyle: .alert)
-            let alertAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+            let alertController = UIAlertController(title: "Oops", message: NSLocalizedString("We cannot continue because one of the fields is empty. Note that all fields are mandatory", comment: "We cannot continue because one of the fields is empty. Note that all fields are mandatory"), preferredStyle: .alert)
+            let alertAction = UIAlertAction(title: NSLocalizedString("OK", comment: "OK"), style: .default, handler: nil)
             alertController.addAction(alertAction)
             present(alertController, animated: true, completion: nil)
             
@@ -192,7 +192,7 @@ class TrainingLogViewController: UITableViewController, UITextFieldDelegate, UII
             if let workoutPostImage = imageView.image {
                 workoutPost.image = UIImagePNGRepresentation(workoutPostImage)
             }
-            print("Saving data to context")
+            print(NSLocalizedString("Saving data to context", comment: "Saving data to context"))
             appDelegate.saveContext()
         }
         dismiss(animated: true, completion: nil)

@@ -76,7 +76,7 @@ class WorkoutDetailViewController: UIViewController, UITableViewDataSource, UITa
             return cell
         case 3:
             let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: WorkoutDetailSeparatorCell.self ), for: indexPath) as! WorkoutDetailSeparatorCell
-            cell.titleLabel.text = "HOW TO GET THERE"
+            cell.titleLabel.text = NSLocalizedString("HOW TO GET THERE", comment: "HOW TO GET THERE")
             
             return cell
         case 4:
