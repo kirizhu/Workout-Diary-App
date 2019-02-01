@@ -44,7 +44,7 @@ class WorkoutDetailMapCell: UITableViewCell {
                     annotation.coordinate = location.coordinate
                     self.mapView.addAnnotation(annotation)
                     //set zoom
-                    let region = MKCoordinateRegionMakeWithDistance(annotation.coordinate, 250, 250)
+                    let region = MKCoordinateRegion.init(center: annotation.coordinate, latitudinalMeters: 250, longitudinalMeters: 250)
                     self.mapView.setRegion(region, animated: false)
                 }
             }

@@ -190,7 +190,7 @@ class TrainingLogViewController: UITableViewController, UITextFieldDelegate, UII
             workoutPost.isGood = false
             
             if let workoutPostImage = imageView.image {
-                workoutPost.image = UIImagePNGRepresentation(workoutPostImage)
+                workoutPost.image = workoutPostImage.pngData()
             }
             print("Saving data to context")
             appDelegate.saveContext()
@@ -201,8 +201,11 @@ class TrainingLogViewController: UITableViewController, UITextFieldDelegate, UII
         
        
 
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        if let selectedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+// Local variable inserted by Swift 4.2 migrator.
+let info = convertFromUIImagePickerControllerInfoKeyDictionary(info)
+
+        if let selectedImage = info[convertFromUIImagePickerControllerInfoKey(UIImagePickerController.InfoKey.originalImage)] as? UIImage {
             imageView.contentMode = .scaleAspectFill
             imageView.image = selectedImage
             imageView.clipsToBounds = true
@@ -225,3 +228,13 @@ class TrainingLogViewController: UITableViewController, UITextFieldDelegate, UII
     }
 }
     
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromUIImagePickerControllerInfoKeyDictionary(_ input: [UIImagePickerController.InfoKey: Any]) -> [String: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map {key, value in (key.rawValue, value)})
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromUIImagePickerControllerInfoKey(_ input: UIImagePickerController.InfoKey) -> String {
+	return input.rawValue
+}
