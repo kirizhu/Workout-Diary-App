@@ -11,7 +11,6 @@
 		5F05A1222150DA5200C04B41 /* TrainingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F05A1212150DA5200C04B41 /* TrainingTableViewCell.swift */; };
 		5F2AD0962204871A009D0AA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F2AD0942204871A009D0AA0 /* InfoPlist.strings */; };
 		5F2AD0992204871A009D0AA0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F2AD0972204871A009D0AA0 /* Localizable.strings */; };
-		5F2AD09B22048B43009D0AA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F2AD09A22048B43009D0AA0 /* GoogleService-Info.plist */; };
 		5F406717215B727900BD9278 /* TrainingLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F406716215B727900BD9278 /* TrainingLogController.swift */; };
 		5F88CDDB214FBD5100B03813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88CDDA214FBD5100B03813 /* AppDelegate.swift */; };
 		5F88CDE0214FBD5100B03813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F88CDDE214FBD5100B03813 /* Main.storyboard */; };
@@ -35,23 +34,32 @@
 		5FF4201B215A2BC600F03916 /* WorkoutDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4201A215A2BC600F03916 /* WorkoutDetailHeaderView.swift */; };
 		5FF4201D215A3BC500F03916 /* WorkoutDateAdressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4201C215A3BC500F03916 /* WorkoutDateAdressCell.swift */; };
 		5FF4201F215A3ED300F03916 /* WorkoutDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4201E215A3ED300F03916 /* WorkoutDescriptionCell.swift */; };
-		5FF42022215A4FB000F03916 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF42021215A4FB000F03916 /* MapKit.framework */; };
 		5FF42024215A569600F03916 /* WorkoutDetailSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF42023215A569600F03916 /* WorkoutDetailSeparatorCell.swift */; };
 		5FF42026215A57DD00F03916 /* WorkoutDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF42025215A57DD00F03916 /* WorkoutDetailMapCell.swift */; };
+<<<<<<< HEAD
 		9EF23A0939B01CC3D0A6C22B /* Pods_iOS_TraningsDagboken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA4FDECFE55A4F413FE28C /* Pods_iOS_TraningsDagboken.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+=======
+		BC042E6922049B7800F38079 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF42021215A4FB000F03916 /* MapKit.framework */; };
+		BC042E7122049BEC00F38079 /* Pods_iOS_TraningsDagboken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC042E7022049BEC00F38079 /* Pods_iOS_TraningsDagboken.framework */; };
+		BC49D88F2207001C007E412C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC49D88E2207001C007E412C /* GoogleService-Info.plist */; };
+		BC9175862204DEE5009B6D10 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9175852204DEE5009B6D10 /* LoginViewController.swift */; };
+		BC9175882204DF5C009B6D10 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9175872204DF5C009B6D10 /* ResetPasswordViewController.swift */; };
+>>>>>>> log3
 		BCB3E74922034AD200C0B187 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3E74822034AD200C0B187 /* WelcomeViewController.swift */; };
+		BCCF61082204D59B0069683F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF61072204D59B0069683F /* SignUpViewController.swift */; };
 		BCDC91382153E85100014A98 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC91372153E85100014A98 /* RoundedTextField.swift */; };
+		D180B78947ACBF7226548E33 /* Pods_iOS_TraningsDagboken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBFFD984F64B874BBAADF21 /* Pods_iOS_TraningsDagboken.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CCCB8EFD4AD88F7B1EF2F6D /* Pods-iOS-TraningsDagboken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-TraningsDagboken.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-TraningsDagboken/Pods-iOS-TraningsDagboken.release.xcconfig"; sourceTree = "<group>"; };
+		2DBFFD984F64B874BBAADF21 /* Pods_iOS_TraningsDagboken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_TraningsDagboken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F05A11F214FE2A200C04B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F05A1212150DA5200C04B41 /* TrainingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTableViewCell.swift; sourceTree = "<group>"; };
 		5F2AD092220481A3009D0AA0 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
 		5F2AD093220481A3009D0AA0 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		5F2AD0952204871A009D0AA0 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F2AD0982204871A009D0AA0 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5F2AD09A22048B43009D0AA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5F406716215B727900BD9278 /* TrainingLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingLogController.swift; sourceTree = "<group>"; };
 		5F88CDD7214FBD5100B03813 /* iOS-TraningsDagboken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-TraningsDagboken.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F88CDDA214FBD5100B03813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,7 +89,12 @@
 		5FF42023215A569600F03916 /* WorkoutDetailSeparatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailSeparatorCell.swift; sourceTree = "<group>"; };
 		5FF42025215A57DD00F03916 /* WorkoutDetailMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailMapCell.swift; sourceTree = "<group>"; };
 		7CDA4FDECFE55A4F413FE28C /* Pods_iOS_TraningsDagboken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_TraningsDagboken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC042E7022049BEC00F38079 /* Pods_iOS_TraningsDagboken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_iOS_TraningsDagboken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC49D88E2207001C007E412C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC9175852204DEE5009B6D10 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BC9175872204DF5C009B6D10 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		BCB3E74822034AD200C0B187 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		BCCF61072204D59B0069683F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../Resources/SignUpViewController.swift; sourceTree = "<group>"; };
 		BCDC91372153E85100014A98 /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
 		DA29971602CCA5B04C122BA2 /* Pods-iOS-TraningsDagboken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-TraningsDagboken.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-TraningsDagboken/Pods-iOS-TraningsDagboken.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,14 +104,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF42022215A4FB000F03916 /* MapKit.framework in Frameworks */,
-				9EF23A0939B01CC3D0A6C22B /* Pods_iOS_TraningsDagboken.framework in Frameworks */,
+				BC042E6922049B7800F38079 /* MapKit.framework in Frameworks */,
+				BC042E7122049BEC00F38079 /* Pods_iOS_TraningsDagboken.framework in Frameworks */,
+				D180B78947ACBF7226548E33 /* Pods_iOS_TraningsDagboken.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1229C3CA51C47FC35FF913D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DBFFD984F64B874BBAADF21 /* Pods_iOS_TraningsDagboken.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5F05A1232150DAC600C04B41 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,11 +138,14 @@
 		5F05A1252150DADD00C04B41 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BC9175852204DEE5009B6D10 /* LoginViewController.swift */,
+				BCCF61072204D59B0069683F /* SignUpViewController.swift */,
+				BCB3E74822034AD200C0B187 /* WelcomeViewController.swift */,
+				BC9175872204DF5C009B6D10 /* ResetPasswordViewController.swift */,
 				5FF420002159066800F03916 /* WorkoutDetailViewController.swift */,
 				5F88CDF3214FC9EF00B03813 /* TrainingTableViewController.swift */,
 				5F406716215B727900BD9278 /* TrainingLogController.swift */,
 				5FE56E16215A80A600BE91F5 /* MapViewController.swift */,
-				BCB3E74822034AD200C0B187 /* WelcomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -139,8 +164,8 @@
 			children = (
 				5F88CDD9214FBD5100B03813 /* iOS-TraningsDagboken */,
 				5F88CDD8214FBD5100B03813 /* Products */,
-				5FF42020215A4FB000F03916 /* Frameworks */,
 				8450DAE62B930A4BE5D4B472 /* Pods */,
+				1229C3CA51C47FC35FF913D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,8 +188,8 @@
 				5F88CDE9214FBD5300B03813 /* Info.plist */,
 				5F2AD0972204871A009D0AA0 /* Localizable.strings */,
 				5F2AD0942204871A009D0AA0 /* InfoPlist.strings */,
+				BC49D88E2207001C007E412C /* GoogleService-Info.plist */,
 				5F88CDE1214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld */,
-				5F2AD09A22048B43009D0AA0 /* GoogleService-Info.plist */,
 				5F88CDDA214FBD5100B03813 /* AppDelegate.swift */,
 				5F05A11F214FE2A200C04B41 /* Assets.xcassets */,
 			);
@@ -208,6 +233,7 @@
 		5FF42020215A4FB000F03916 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BC042E7022049BEC00F38079 /* Pods_iOS_TraningsDagboken.framework */,
 				5FF42021215A4FB000F03916 /* MapKit.framework */,
 				7CDA4FDECFE55A4F413FE28C /* Pods_iOS_TraningsDagboken.framework */,
 			);
@@ -219,6 +245,7 @@
 			children = (
 				DA29971602CCA5B04C122BA2 /* Pods-iOS-TraningsDagboken.debug.xcconfig */,
 				1CCCB8EFD4AD88F7B1EF2F6D /* Pods-iOS-TraningsDagboken.release.xcconfig */,
+				5FF42020215A4FB000F03916 /* Frameworks */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -234,6 +261,7 @@
 				5F88CDD3214FBD5100B03813 /* Sources */,
 				5F88CDD4214FBD5100B03813 /* Frameworks */,
 				5F88CDD5214FBD5100B03813 /* Resources */,
+				02CB83522AD4D3C2BB021889 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -301,7 +329,7 @@
 				5F05A120214FE2A200C04B41 /* Assets.xcassets in Resources */,
 				5F88CDE0214FBD5100B03813 /* Main.storyboard in Resources */,
 				5FF420142159068000F03916 /* Rubik-Italic.ttf in Resources */,
-				5F2AD09B22048B43009D0AA0 /* GoogleService-Info.plist in Resources */,
+				BC49D88F2207001C007E412C /* GoogleService-Info.plist in Resources */,
 				5FF4200F2159068000F03916 /* Rubik-MediumItalic.ttf in Resources */,
 				5FF420182159068000F03916 /* Rubik-Regular.ttf in Resources */,
 				5FF420102159068000F03916 /* Rubik-Bold.ttf in Resources */,
@@ -312,6 +340,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		02CB83522AD4D3C2BB021889 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOS-TraningsDagboken/Pods-iOS-TraningsDagboken-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-TraningsDagboken/Pods-iOS-TraningsDagboken-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		18D4E81933749144AE985FB7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,9 +404,12 @@
 				BCB3E74922034AD200C0B187 /* WelcomeViewController.swift in Sources */,
 				5FF4201B215A2BC600F03916 /* WorkoutDetailHeaderView.swift in Sources */,
 				5FF41FFF215905F200F03916 /* WorkoutPost.swift in Sources */,
+				BC9175882204DF5C009B6D10 /* ResetPasswordViewController.swift in Sources */,
 				5F406717215B727900BD9278 /* TrainingLogController.swift in Sources */,
+				BCCF61082204D59B0069683F /* SignUpViewController.swift in Sources */,
 				5F05A1222150DA5200C04B41 /* TrainingTableViewCell.swift in Sources */,
 				5F88CDDB214FBD5100B03813 /* AppDelegate.swift in Sources */,
+				BC9175862204DEE5009B6D10 /* LoginViewController.swift in Sources */,
 				5F88CDE3214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld in Sources */,
 				5FF42026215A57DD00F03916 /* WorkoutDetailMapCell.swift in Sources */,
 				5FE56E17215A80A600BE91F5 /* MapViewController.swift in Sources */,
@@ -519,6 +576,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA29971602CCA5B04C122BA2 /* Pods-iOS-TraningsDagboken.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
@@ -538,6 +596,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1CCCB8EFD4AD88F7B1EF2F6D /* Pods-iOS-TraningsDagboken.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
