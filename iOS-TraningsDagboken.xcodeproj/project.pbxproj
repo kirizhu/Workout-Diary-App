@@ -38,7 +38,7 @@
 		5FF42022215A4FB000F03916 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF42021215A4FB000F03916 /* MapKit.framework */; };
 		5FF42024215A569600F03916 /* WorkoutDetailSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF42023215A569600F03916 /* WorkoutDetailSeparatorCell.swift */; };
 		5FF42026215A57DD00F03916 /* WorkoutDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF42025215A57DD00F03916 /* WorkoutDetailMapCell.swift */; };
-		9EF23A0939B01CC3D0A6C22B /* Pods_iOS_TraningsDagboken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA4FDECFE55A4F413FE28C /* Pods_iOS_TraningsDagboken.framework */; };
+		9EF23A0939B01CC3D0A6C22B /* Pods_iOS_TraningsDagboken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA4FDECFE55A4F413FE28C /* Pods_iOS_TraningsDagboken.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		BCB3E74922034AD200C0B187 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3E74822034AD200C0B187 /* WelcomeViewController.swift */; };
 		BCDC91382153E85100014A98 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC91372153E85100014A98 /* RoundedTextField.swift */; };
 /* End PBXBuildFile section */
