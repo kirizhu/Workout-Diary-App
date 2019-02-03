@@ -36,15 +36,10 @@
 		5FF4201F215A3ED300F03916 /* WorkoutDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF4201E215A3ED300F03916 /* WorkoutDescriptionCell.swift */; };
 		5FF42024215A569600F03916 /* WorkoutDetailSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF42023215A569600F03916 /* WorkoutDetailSeparatorCell.swift */; };
 		5FF42026215A57DD00F03916 /* WorkoutDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF42025215A57DD00F03916 /* WorkoutDetailMapCell.swift */; };
-<<<<<<< HEAD
-		9EF23A0939B01CC3D0A6C22B /* Pods_iOS_TraningsDagboken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDA4FDECFE55A4F413FE28C /* Pods_iOS_TraningsDagboken.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-=======
 		BC042E6922049B7800F38079 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF42021215A4FB000F03916 /* MapKit.framework */; };
 		BC042E7122049BEC00F38079 /* Pods_iOS_TraningsDagboken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC042E7022049BEC00F38079 /* Pods_iOS_TraningsDagboken.framework */; };
-		BC49D88F2207001C007E412C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC49D88E2207001C007E412C /* GoogleService-Info.plist */; };
 		BC9175862204DEE5009B6D10 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9175852204DEE5009B6D10 /* LoginViewController.swift */; };
 		BC9175882204DF5C009B6D10 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9175872204DF5C009B6D10 /* ResetPasswordViewController.swift */; };
->>>>>>> log3
 		BCB3E74922034AD200C0B187 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3E74822034AD200C0B187 /* WelcomeViewController.swift */; };
 		BCCF61082204D59B0069683F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF61072204D59B0069683F /* SignUpViewController.swift */; };
 		BCDC91382153E85100014A98 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC91372153E85100014A98 /* RoundedTextField.swift */; };
@@ -90,7 +85,6 @@
 		5FF42025215A57DD00F03916 /* WorkoutDetailMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailMapCell.swift; sourceTree = "<group>"; };
 		7CDA4FDECFE55A4F413FE28C /* Pods_iOS_TraningsDagboken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_TraningsDagboken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC042E7022049BEC00F38079 /* Pods_iOS_TraningsDagboken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_iOS_TraningsDagboken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC49D88E2207001C007E412C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BC9175852204DEE5009B6D10 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BC9175872204DF5C009B6D10 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		BCB3E74822034AD200C0B187 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -188,7 +182,6 @@
 				5F88CDE9214FBD5300B03813 /* Info.plist */,
 				5F2AD0972204871A009D0AA0 /* Localizable.strings */,
 				5F2AD0942204871A009D0AA0 /* InfoPlist.strings */,
-				BC49D88E2207001C007E412C /* GoogleService-Info.plist */,
 				5F88CDE1214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld */,
 				5F88CDDA214FBD5100B03813 /* AppDelegate.swift */,
 				5F05A11F214FE2A200C04B41 /* Assets.xcassets */,
@@ -329,7 +322,6 @@
 				5F05A120214FE2A200C04B41 /* Assets.xcassets in Resources */,
 				5F88CDE0214FBD5100B03813 /* Main.storyboard in Resources */,
 				5FF420142159068000F03916 /* Rubik-Italic.ttf in Resources */,
-				BC49D88F2207001C007E412C /* GoogleService-Info.plist in Resources */,
 				5FF4200F2159068000F03916 /* Rubik-MediumItalic.ttf in Resources */,
 				5FF420182159068000F03916 /* Rubik-Regular.ttf in Resources */,
 				5FF420102159068000F03916 /* Rubik-Bold.ttf in Resources */,
