@@ -972,7 +972,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="1Cb-p3-IJN">
-                                                    <rect key="frame" x="73" y="0.0" width="227" height="57"/>
+                                                    <rect key="frame" x="73" y="0.0" width="191" height="57"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbF-wv-7J1">
                                                             <rect key="frame" x="0.0" y="0.0" width="47" height="20.5"/>
@@ -994,6 +994,13 @@
                                                         </label>
                                                     </subviews>
                                                 </stackView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RF0-ww-Edh">
+                                                    <rect key="frame" x="279" y="0.0" width="21" height="22"/>
+                                                    <state key="normal" image="facebook"/>
+                                                    <connections>
+                                                        <action selector="FB:" destination="qzu-Cj-YTJ" eventType="touchUpInside" id="E1T-aa-zXf"/>
+                                                    </connections>
+                                                </button>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart-tick" translatesAutoresizingMaskIntoConstraints="NO" id="8xP-rF-wkQ">
                                                     <rect key="frame" x="315" y="0.0" width="22" height="21"/>
                                                 </imageView>
@@ -1095,7 +1102,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="350"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOr-zC-583" userLabel="Name Label">
-                                            <rect key="frame" x="14" y="272" width="86" height="41"/>
+                                            <rect key="frame" x="14" y="272" width="91.5" height="41"/>
                                             <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="35"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
@@ -1161,7 +1168,7 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXD-hH-0Xd">
-                                                            <rect key="frame" x="30" y="7.5" width="317" height="16.5"/>
+                                                            <rect key="frame" x="30" y="7.5" width="317" height="17"/>
                                                             <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="14"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -1327,7 +1334,7 @@
         <image name="edgar-chaparro-669210-unsplash" width="3360" height="5040"/>
         <image name="email" width="24" height="16"/>
         <image name="empty" width="1080" height="1080"/>
-        <image name="facebook" width="21" height="20"/>
+        <image name="facebook" width="21.5" height="20"/>
         <image name="google" width="21" height="21"/>
         <image name="heart-tick" width="22" height="21"/>
         <image name="lock" width="20" height="27"/>

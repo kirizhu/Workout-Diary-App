@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-
+import FacebookShare
 
 
 class TrainingTableViewController: UITableViewController, NSFetchedResultsControllerDelegate, UISearchResultsUpdating {
@@ -21,6 +21,40 @@ class TrainingTableViewController: UITableViewController, NSFetchedResultsContro
     @IBOutlet var emptyWorkoutView : UIView!
     
 
+    @IBAction func FB(_ sender: UIButton) {
+        let buttonPosition = sender.convert(CGPoint.zero, to: tableView)
+        
+        guard let indexPath = tableView.indexPathForRow(at: buttonPosition) else {
+            return
+        }
+        
+        // Display the share menu
+        let shareMenu = UIAlertController(title: nil, message: "Share using", preferredStyle: .actionSheet)
+        let facebookAction = UIAlertAction(title: "Facebook", style: UIAlertAction.Style.default){
+            (action) in
+            let workoutPostImage = self.workoutPosts[indexPath.row].image
+            guard let selectedImage = UIImage(data: workoutPostImage!) else {
+                return
+            }
+            let photo = Photo(image: selectedImage, userGenerated: false)
+            let content = PhotoShareContent(photos:[photo])
+            let shareDialog = ShareDialog(content:content)
+            do{
+                try shareDialog.show()
+            }catch{
+                
+                print(error)
+            }
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: nil)
+
+        shareMenu.addAction(facebookAction)
+        shareMenu.addAction(cancelAction)
+        
+        self.present(shareMenu, animated: true, completion: nil)
+    }
+    
     
     // MARK: - ViewController life cycle
     override func viewDidLoad() {
@@ -127,6 +161,7 @@ class TrainingTableViewController: UITableViewController, NSFetchedResultsContro
         return swipeConfiguration
     }
     
+    
     //share and delete func
     override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let deleteAction = UIContextualAction(style: .destructive, title: NSLocalizedString("Delete", comment: "Delete")) {
@@ -168,6 +203,9 @@ class TrainingTableViewController: UITableViewController, NSFetchedResultsContro
             completionHandler(true)
             
         }
+        
+    //
+        
         let swipeConfiguration = UISwipeActionsConfiguration(actions: [deleteAction, shareAction])
         return swipeConfiguration
         
